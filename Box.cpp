@@ -9,9 +9,7 @@ private:
 
 public:
     // TODO: Constructor
-    Box(){
-        value = T();
-    };
+    Box(T val) : value(val) {};
 
     // TODO: setValue
     void setValue(T val){
