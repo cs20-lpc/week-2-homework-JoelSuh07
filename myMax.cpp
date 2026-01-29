@@ -2,6 +2,15 @@
 using namespace std;
 
 // TODO: Write a function template myMax
+//Joel added template <typename T>
+template <typename T>
+T myMax(T a, T b) {
+    if(a > b){
+        return a;
+    } else {
+        return b;
+    }
+}
 
 int main() {
     cout << myMax(3, 7) << endl;
