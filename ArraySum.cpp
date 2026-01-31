@@ -14,7 +14,7 @@ T arraySum(T arr[], int size) {
     T sum;
     // TODO: Use a loop to add all elements
     for (int i = 0; i < size; i++){
-        sum =+ arr[i];
+        sum += arr[i];
     }
     // TODO: Return the sum
     return sum;
