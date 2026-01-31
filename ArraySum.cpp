@@ -9,7 +9,7 @@ using namespace std;
 //   - the sum of the elements
 
 template <typename T>
-T arraySum(T arr[], int size) {
+T arraySum(T *arr, int size) {
     // TODO: Initialize a variable to store the sum
     T sum;
     // TODO: Use a loop to add all elements
